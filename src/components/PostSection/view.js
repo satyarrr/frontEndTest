@@ -61,7 +61,7 @@ function PostSection() {
             placeholder="Description"
           />
         </div>
-        <button className="btn btn-sm btn-primary" onClick={postData}>
+        <button className="btn btn-sm btn-primary" onClick={postData} >
           Post Data
         </button>
         <button

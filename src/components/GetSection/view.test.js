@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import PostSection from './view';
+import GetSection from './view';
 import userEvent from '@testing-library/user-event'
 
 test('renders Post Section', async () => {
-    render(<PostSection/>)
 
+    render(<GetSection/>)
+  // cari element button
+  const button = screen.getByTestId("toggle");
+  userEvent.click(button)
 });
