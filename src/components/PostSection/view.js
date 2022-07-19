@@ -76,6 +76,7 @@ function PostSection() {
           <span>{`Description: ${description}`}</span>
         </div>
         {postResult && (
+          
           <>
             <div className="alert alert-secondary mt-2" role="alert">
               <pre>{formatResponse(postResult)}</pre>
@@ -84,7 +85,9 @@ function PostSection() {
               <div className="alert alert-success mt-2" role="alert">
                 <span>{`Status: ${postResult?.data?.status}`}</span>
               </div>
+              
             )}
+            
           </>
         )}
       </div>
