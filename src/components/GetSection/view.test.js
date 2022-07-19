@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import GetSection from './view';
 import userEvent from '@testing-library/user-event'
 
-test('renders Post Section', async () => {
+test('renders Get Section', async () => {
 
     render(<GetSection/>)
   // cari element button
